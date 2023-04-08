@@ -1,6 +1,6 @@
 name: Check code quality
 
-on: [pull request]
+on: [push]
 
 jobs:
   code-quality:
@@ -17,4 +17,3 @@ jobs:
         run: black --check ./ && isort --check ./
       - name: Run linter
         run: flake8 ./
-      
