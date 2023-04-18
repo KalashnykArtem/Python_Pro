@@ -19,7 +19,7 @@ def main():
             file.write(i)
             lines += 1
         print(f"Found {lines} lines")
-        file_size = asizeof.asizeof("results.txt")
+        file_size = asizeof.asizeof("./lesson_3/results.txt")
         file_size2 = asizeof.asizeof(file)
         print(f"File size: {file_size} bytes")
         print(f"File size: {file_size2} bytes")
