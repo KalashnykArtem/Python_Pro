@@ -13,7 +13,7 @@ def find_in_file(file_name: str):
 
 
 def main():
-    with open("results.txt", "w") as file:
+    with open("./lesson_3/results.txt", "w") as file:
         lines = 0
         for i in find_in_file(file_name="./lesson_3/rockyou.txt"):
             file.write(i)
