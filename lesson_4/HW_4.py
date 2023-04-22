@@ -31,10 +31,10 @@ def players_add():
     if pl_numb in list_numb:
         print(f"Player with number № {pl_numb} already exists")
     else:
-        new_player = {"name": pl_name, "age": pl_age, "number": pl_numb}
-        team.append(new_player)
+        new_pl = {"name": pl_name, "age": pl_age, "number": pl_numb}
+        team.append(new_pl)
         print("Player added")
-        print(new_player)
+        print(new_pl)
 
 
 def players_del():
