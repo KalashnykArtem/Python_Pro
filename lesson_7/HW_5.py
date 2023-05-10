@@ -29,7 +29,7 @@ class Youtube(SocialChannel):
         return getattr(self, "_number_followers")
 
     def post_a_message(self, message: str):
-        print(f"{message} posted on {self.type_channel} at {datetime.now()}")
+        print(f"{message} - posted on {self.type_channel} at {datetime.now()}")
 
     def __str__(self):
         return f"{self.type_channel}: {self.number_followers} followers"
@@ -47,7 +47,7 @@ class Facebook(SocialChannel):
         return getattr(self, "_number_followers")
 
     def post_a_message(self, message: str):
-        print(f"{message} posted on {self.type_channel} at {datetime.now()}")
+        print(f"{message} - posted on {self.type_channel} at {datetime.now()}")
 
     def __str__(self):
         return f"{self.type_channel}: {self.number_followers} followers"
@@ -65,7 +65,7 @@ class Twitter(SocialChannel):
         return getattr(self, "_number_followers")
 
     def post_a_message(self, message: str):
-        print(f"{message} posted on {self.type_channel} at {datetime.now()}")
+        print(f"{message} - posted on {self.type_channel} at {datetime.now()}")
 
     def __str__(self):
         return f"{self.type_channel}: {self.number_followers} followers"
