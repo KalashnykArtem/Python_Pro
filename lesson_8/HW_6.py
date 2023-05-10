@@ -42,7 +42,7 @@ class ExchangeRates:
 
 
 def main():
-    type_currency = ("UAH", "USD", "EUR", "GBP")
+    type_currency = ["UAH", "USD", "EUR", "GBP"]
     while True:
         currency_1 = input(f"Enter the first currency {type_currency}: ")
         amount_1 = float(input("Enter amount: "))
