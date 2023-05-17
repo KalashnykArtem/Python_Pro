@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pre-commit = "*"
 pympler = "*"
+requests = "*"
 
 [dev-packages]
 black = "*"
